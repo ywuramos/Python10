@@ -1,0 +1,4 @@
+sal = float(input('Seu salario R$'))
+aum1 = (15/100) * sal
+aum2 = sal + aum1
+print('Seu aumento é R${:.2f} >> Total de {:.2f}'.format(aum1, aum2))
